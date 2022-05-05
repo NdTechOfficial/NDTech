@@ -1,0 +1,13 @@
+body {
+  background: linear-gradient(#000c7d,#0b397e);
+  height: 884px;
+}
+h1 {
+  color: #fff;
+  font-family: impact;
+  font-weight: 100;
+  font-size: 100px;
+}
+.imglink {
+  cursor: pointer;
+}
