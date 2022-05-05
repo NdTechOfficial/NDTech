@@ -11,3 +11,6 @@ h1 {
 .imglink {
   cursor: pointer;
 }
+img {
+  border-radius: 7px;
+}
