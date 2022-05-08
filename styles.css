@@ -149,3 +149,8 @@ h2{padding-left: 60px;}
   color: white;
 }
 p{color: white;}
+@media only screen and (min-device-width: 320px) and (max-device-width: 530px) {
+  .mobh{
+    display: none;
+  }
+}
