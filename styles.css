@@ -141,8 +141,7 @@ h2{padding-left: 60px;}
   border-radius: 10px;
 }
 .nave:hover {
-  box-shadow: 0 1px 2px 0 rgba(166, 166, 166, 0.21), 0 1px 3px 1px rgba(111, 111, 111, 0.24);
-  border: 1px solid #fff0;
+  background: #6108FD;
 }
 .hn { /*Href decoration-none*/
   text-decoration: none;
