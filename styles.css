@@ -97,10 +97,13 @@ body {
   height: 460px;
   transform: translate(-60%,-30%);
 }
-h2{padding-left: 60px;}
+h2 {
+  float: left;
+  color: white;
+}
 .header {
   padding: 10px 16px;
-  background: #fff0;
+  background: #0a0924;
   color: #f1f1f1;
 }
 
@@ -129,7 +132,6 @@ h2{padding-left: 60px;}
   background-color: #3330;
 }
 .nave {
-  display: block;
   color: white;
   text-align: center;
   padding: 18px 16px;
@@ -147,7 +149,35 @@ h2{padding-left: 60px;}
   text-decoration: none;
   color: white;
 }
-p{color: white;}
+.ml {
+  padding-top: 20px;
+}
+.banner {
+  border-radius: 10px;
+}
+button {
+  height: 50px;
+  width: 200px;
+  font-size: xx-large;
+  background: #6108fd;
+  color: white;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+iframe {
+  border-radius: 10px;
+}
+.sm {
+  height: 70px;
+}
+.sm:hover {
+  height: 80px;
+}
+h1 {
+  color: white;
+  font-size: xxx-large;
+}
 @media only screen and (min-device-width: 320px) and (max-device-width: 530px) {
   .nave{
     display: none;
