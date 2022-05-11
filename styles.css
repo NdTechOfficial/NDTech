@@ -98,7 +98,6 @@ body {
   transform: translate(-60%,-30%);
 }
 h2 {
-  float: left;
   color: white;
 }
 .header {
@@ -178,6 +177,21 @@ h1 {
   color: white;
   font-size: xxx-large;
 }
+th, td {
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+}
+table, tr, th, td {
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
+p {
+  color: white;
+  font-size: x-large;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 530px) {
   .nave{
     display: none;
